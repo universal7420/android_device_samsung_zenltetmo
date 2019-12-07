@@ -23,7 +23,7 @@
 LOCAL_PATH := $(call my-dir)
 
 # Support installing on all zenlte targets regardless of stability or bootability
-ifneq ($(filter zenltecan zenltespr zenltetmo,$(TARGET_DEVICE)),)
+ifneq ($(filter zenltecan zenltetmo,$(TARGET_DEVICE)),)
 
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
