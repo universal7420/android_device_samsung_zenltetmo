@@ -19,14 +19,8 @@ LOCAL_PATH := device/samsung/zenltetmo
 ## device overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# Audio
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/audio_policy.conf:system/vendor/etc/audio_policy.conf \
-    $(LOCAL_PATH)/configs/mixer_gains.xml:system/etc/mixer_gains.xml \
-    $(LOCAL_PATH)/configs/mixer_gains.xml:system/vendor/etc/mixer_gains.xml \
-    $(LOCAL_PATH)/configs/mixer_paths-audience.xml:system/etc/mixer_paths-audience.xml \
-    $(LOCAL_PATH)/configs/mixer_paths_0-audience.xml:system/etc/mixer_paths_0-audience.xml \
-    $(LOCAL_PATH)/configs/mixer_paths_0-audience.xml:system/vendor/etc/mixer_paths_0-audience.xml
+# Properties
+TARGET_SYSTEM_PROP += device/samsung/zenltetmo/system.prop
 
 # Inherit from noblelte-common
 $(call inherit-product, device/samsung/noblelte-common/noblelte-common.mk)
