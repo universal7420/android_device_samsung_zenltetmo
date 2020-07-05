@@ -18,7 +18,7 @@
 set -e
 
 export DEVICE=zenltetmo
-export DEVICE_COMMON=noblelte-common
+export DEVICE_COMMON=universal7420-common
 export VENDOR=samsung
 
 ./../$DEVICE_COMMON/extract-files.sh $@
