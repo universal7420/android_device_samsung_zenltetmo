@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_zenltetmo.mk
+    $(LOCAL_DIR)/bliss_zenltetmo.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_zenltetmo-user \
-    lineage_zenltetmo-userdebug \
-    lineage_zenltetmo-eng
+    bliss_zenltetmo-user \
+    bliss_zenltetmo-userdebug \
+    bliss_zenltetmo-eng
