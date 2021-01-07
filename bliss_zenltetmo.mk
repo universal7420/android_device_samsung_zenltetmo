@@ -45,6 +45,6 @@ TARGET_BOOT_ANIMATION_RES := 1440
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=zenltetmo \
     TARGET_DEVICE=zenltetmo \
-    PRIVATE_BUILD_DESC="zenltetmo-user 7.0 NRD90M G928TUVU4EQG3 release-keys"
+    PRIVATE_BUILD_DESC="zenltetmo-user 7.0 NRD90M G928TUVS6ERH1 release-keys"
 
-BUILD_FINGERPRINT := "samsung/zenltetmo/zenltetmo:7.0/NRD90M/G928TUVU4EQG3:user/release-keys"
+BUILD_FINGERPRINT := "samsung/zenltetmo/zenltetmo:7.0/NRD90M/G928TUVS6ERH1:user/release-keys"
